@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DBCLoomioBlog</title>
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+    <!-- Bootstrap Core CSS -->
+    <%= stylesheet_link_tag 'bootstrap.min' %>
+    <%= stylesheet_link_tag 'clean-blog.min' %>    
+	 <!-- Bootstrap Core CSS -->
+    <%= javascript_include_tag 'bootstrap.min' %>
+    <%= javascript_include_tag 'jquery' %>
+    <%= javascript_include_tag 'clean-blog.min' %>   
+
+
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>
