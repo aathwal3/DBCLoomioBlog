@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'home/story'
   get 'home/contact'
+  get 'home/cloomio'
+  get 'home/loomio'
 
   resources :home 
 
