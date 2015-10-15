@@ -11,6 +11,12 @@ class HomeController < ApplicationController
 
   def contact 
   end
+
+  def cloomio
+  end
+
+  def loomio
+  end
   
 
 end
