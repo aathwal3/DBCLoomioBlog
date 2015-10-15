@@ -25,6 +25,7 @@ class PostsController < ApplicationController
   # POST /posts.json
   def create
     @post = Post.new(post_params)
+    p "*"* 1000
 
     respond_to do |format|
       if @post.save
