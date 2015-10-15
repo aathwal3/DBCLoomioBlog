@@ -15,4 +15,5 @@ Rails.application.config.assets.precompile += %w( bootstrap.min.css )
 Rails.application.config.assets.precompile += %w( jquery.js )
 Rails.application.config.assets.precompile += %w( jquery.js )
 Rails.application.config.assets.precompile += %w( *.scss )
+Rails.application.config.assets.precompile += [/.*\.js/,/.*\.scss/]
 # Rails.application.config.assets.precompile += %w( clean-blog.min.js )
