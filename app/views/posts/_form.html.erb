@@ -12,18 +12,17 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :title %><br>
     <%= f.text_field :title %>
   </div>
-  <div class="field"><textarea class="form-control" rows="12">
+  <div class="form-group">
     <%= f.label :content %><br>
-    <%= f.text_field :content %>
-  </textarea>
+    <%= f.text_area :content %>
   </div>
   <div class="actions">
     <%= f.submit %>
