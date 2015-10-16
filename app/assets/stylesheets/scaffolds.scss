@@ -1,3 +1,35 @@
+.img-circle.img-responsive.img-responsive { 
+  width: 200px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#decideit-features{
+  padding: 5%;
+}
+
+
+#pull-request {
+  padding: 3%;
+}
+
+.pr-container{
+  position: relative;
+  bottom: 10%;
+  top: 10%;
+  padding: 5%;
+}
+
+.story-container {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+  overflow: hidden; 
+}
+
+
 body {
   padding-top: 65px;
   background-color: #fff;
