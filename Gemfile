@@ -50,6 +50,7 @@ group :development do
   # group :assets do
   # 	gem 'sass-rails'
   # end
+  gem 'youtube_addy'
 
 end
 
