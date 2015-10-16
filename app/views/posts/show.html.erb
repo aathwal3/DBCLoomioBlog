@@ -40,7 +40,7 @@
                         <a href="/home/index.html">Home</a>
                     </li>
                     <li>
-                        <%= link_to 'Our Story', home_story_path %> 
+                        <%= link_to 'Our Story', home_story_path %>
                     </li>
                     <li>
                         <%= link_to 'Post', new_post_path %>
@@ -81,7 +81,7 @@
 
                 <hr>
                 <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+                <p><span class="glyphicon glyphicon-time"></span> Posted on <%= @post.date %></p>
 			    </div>
 <footer>
      <!-- Custom Fonts -->
@@ -123,7 +123,7 @@
                     <footer>
                         <div class="row">
                             <div class="col-lg-12">
-                    <p class="copyright text-muted">			    
+                    <p class="copyright text-muted">
 													<%= link_to 'Edit', edit_post_path(@post) %> |
 													<%= link_to 'Back', posts_path %> |
 													<%= link_to 'Home', home_index_path %></p>
@@ -134,7 +134,7 @@
                         </div>
                         <!-- /.row -->
                     </footer>
-        
+
 
 </body>
 
